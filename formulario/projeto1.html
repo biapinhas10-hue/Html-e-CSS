@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrícula - Escola Online</title>
+</head>
+
+<body>
+   <h1>Matrícula - Escola Online</h1>
+</body>
+<form>
+  <fieldset>
+    <legend>Dados Pessoais</legend>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome">
+    <br>
+    <br>
+     <label for="data">Data de Nascimento:</label>
+    <input type="date">
+    <br>
+    <br>
+     <label for="E-mail">E-mail do Aluno:</label>
+     <input type="text" name="E-mail" placeholder="aluno@exemplo.com">
+     <br>
+     <br>
+     <label for="Senha">Senha de Acesso:</label>
+     <input type="text" name="Senha" placeholder="********">
+     <br>
+     <br>
+      <label for="Telefone">Telefone de Emergência:</label>
+     <input type="text" name="Telefone" placeholder="(00) 00000-0000">
+     <br>
+     <br>
+  </fieldset>
+  <fieldset>
+    <legend>Preferências de Estudo</legend>
+    <p>Áreas de Interesse</p>
+    <input type="checkbox" id="Front-end" name="interesses" value="Front-end">
+<label for="Front-end">Front-end</label>
+<br>
+    <input type="checkbox" id="Back-end" name="interesses" value="Back-end">
+<label for="Back-end">Back-end</label>
+<br>
+    <input type="checkbox" id="Design" name="interesses" value="Design">
+<label for="Design">Design</label>
+<br>
+    <input type="checkbox" id="Dados" name="interesses" value="Dados">
+<label for="Dados">Dados</label>
+<br>
+<br>
+<label for="Indicação">Indicação:</label>
+<select id="estado" name="estado"></select>
+<option value="">Indicação</option>
+<option value="io">Indicação</option>
+<option value="adm">Redes sociais</option>
+</select>
+  </fieldset>
+<br>
+<button type="submit">Matricular</button>
+<button type="reset">Limpar</button>
